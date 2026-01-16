@@ -1,0 +1,37 @@
+/* Police Roboto pour tout le document */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+}
+
+/* Liste de navigation */
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Affichage inline */
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Liens */
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: orange;
+}
